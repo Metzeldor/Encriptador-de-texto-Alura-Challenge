@@ -28,4 +28,3 @@ Seleccionar el tipo de cifrado que se desea utilizar.
 Ingresar el texto que se desea encriptar o desencriptar.
 Presionar el botón "Encriptar" o "Desencriptar" según corresponda.
 El resultado se mostrará en la sección correspondiente.
-¡Eso es todo! Espero que encuentres esta guía útil para crear el archivo rearme.md para el proyecto "Encriptador de texto" de Alura Challenges ONE - Public. Si tienes alguna pregunta o necesitas ayuda adicional, no dudes en preguntar. ¡Estoy aquí para ayudarte!
