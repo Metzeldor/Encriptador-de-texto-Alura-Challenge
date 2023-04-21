@@ -51,3 +51,11 @@
 <p>Este proyecto está bajo la Licencia MIT, lo que significa que puede utilizar el código para cualquier propósito, incluso para proyectos comerciales, siempre y cuando se incluya una copia de la licencia en cualquier distribución del software.</p>
 <h1>Agradecimientos</h1>
 <p>Agradecemos a Alura Challenges ONE Public por proporcionar el desafío y la oportunidad de crear este proyecto. También agradecemos a todos los desarrolladores y contribuyentes que trabajan en proyectos de código abierto y comparten su conocimiento con la comunidad.</p>
+Además, agradecemos a los siguientes recursos y tutoriales que nos ayudaron en el desarrollo de este proyecto:
+
+Mozilla Developer Network (MDN): Una excelente referencia para todo lo relacionado con HTML, CSS y JavaScript.
+W3Schools: Una de las fuentes más populares de información sobre tecnologías web.
+Stack Overflow: Una comunidad de desarrolladores que comparten conocimientos y resuelven problemas técnicos.
+FreeCodeCamp: Una plataforma de aprendizaje en línea que ofrece cursos gratuitos sobre desarrollo web.
+Alura: Una plataforma brasileña de educación en línea que ofrece cursos en línea de alta calidad sobre una variedad de temas, incluyendo programación y desarrollo web.
+Esperamos que este proyecto sea útil para quienes deseen aprender más sobre técnicas de cifrado y cómo implementarlas en una aplicación web. Si tiene alguna sugerencia o comentario, no dude en hacérnoslo saber. ¡Gracias por su interés en nuestro proyecto!
