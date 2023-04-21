@@ -15,7 +15,7 @@ El cifrado de César es una técnica de cifrado por sustitución. En este tipo d
 
 Por ejemplo, si el número de posiciones es 3, la letra "A" se sustituirá por la letra "D", la letra "B" se sustituirá por la letra "E", y así sucesivamente.
 
-Cifrado de Vigeneré
+<h1>Cifrado de Vigeneré</h1>
 El cifrado de Vigeneré es un tipo de cifrado polialfabético. En este tipo de cifrado, cada letra del texto original se cifra utilizando una serie de claves diferentes, formadas por una palabra clave que se repite a lo largo del texto.
 
 Por ejemplo, si la palabra clave es "ALURA", la primera letra del texto se cifra utilizando la letra "A" como clave, la segunda letra del texto se cifra utilizando la letra "L" como clave, la tercera letra del texto se cifra utilizando la letra "U" como clave, y así sucesivamente.
