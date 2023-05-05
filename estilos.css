@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  #encrypt-btn {
+    background-color: #4CAF50;
+  }
+  
+  #encrypt-btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  #decrypt-btn {
+    background-color: #f44336;
+  }
+  
+  #decrypt-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  #copy-btn {
+    background-color: #2196F3;
+  }
+  
+  #copy-btn:hover {
+    background-color: #0b7dda;
+  }
+  
+  .social-icons {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons a {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #333;
+  }
+  
+  .social-icons a:hover {
+    color: #000;
+  }
+  
+  .credits {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .credits a {
+    color: #333;
+  }
+  
+  .credits a:hover {
+    color: #000;
+  }
