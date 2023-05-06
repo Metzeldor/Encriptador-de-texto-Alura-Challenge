@@ -23,4 +23,4 @@ Tenga en cuenta que este encriptador y desencriptador solo funciona con letras m
 
 ## Autor
 
-Este sitio web fue desarrollado por Jorge Andres Tejada Ramirez, si desea ponerse en contacto conmigo, puede hacerlo a través de soyandrestejada@gmail.com.
+Este sitio web fue desarrollado por Jorge Andres Tejada Ramirez como parte del ALURA challenge de ORACLE NEXT EDUCATION.
