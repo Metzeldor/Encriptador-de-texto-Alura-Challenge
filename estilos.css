@@ -1,110 +1,130 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: Arial, sans-serif;
-  animation: backgroundAnimation 20s ease infinite;
+  background-color: #f2f2f2;
 }
 
 .container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  background: linear-gradient(to bottom, yellow, blue, red);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-  text-align: center;
+  font-size: 24px;
   margin-bottom: 20px;
-  color: #003893;
+  color: #800080;
 }
 
 h2 {
+  font-size: 18px;
   margin-bottom: 10px;
-  color: #ce1126;
+  color: #ffffff;
 }
 
 textarea {
   width: 100%;
-  height: 150px;
+  height: 100px;
   padding: 10px;
-  margin-bottom: 10px;
-  resize: vertical;
+  border: 1px solid #ccc;
+  resize: none;
 }
 
 button {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
   border: none;
-  border-radius: 10px;
+  background-color: #e0e5ec;
+  color: #555;
   cursor: pointer;
-  background-color: #f2f2f2;
-  box-shadow: 6px 6px 12px rgba(122, 122, 122, 0.3),
-              -6px -6px 12px rgba(255, 255, 255, 0.7);
-  transition: all 0.3s ease;
-}
-
-#encrypt-btn {
-  background-color: #ffd700;
-}
-
-#decrypt-btn {
-  background-color: #003893;
-}
-
-#copy-btn {
-  background-color: #ce1126;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 button:hover {
-  box-shadow: 4px 4px 8px rgba(122, 122, 122, 0.4),
-              -4px -4px 8px rgba(255, 255, 255, 0.8);
-  transform: translate(2px, 2px);
+  background-color: #d3d8e1;
+  transform: translate(0, -2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+#output-text {
+  font-weight: bold;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.input-section,
+.button-section,
+.output-section {
+  margin-bottom: 20px;
+  animation: fadeIn 1s ease;
+}
+
+.button-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-section button {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.output-section {
+  animation-delay: 0.3s;
 }
 
 footer {
   margin-top: 20px;
-  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: slideUp 1s ease;
 }
 
 .social-icons a {
-  color: #555;
+  font-size: 24px;
+  margin-right: 10px;
   text-decoration: none;
-  margin: 0 5px;
   transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-  color: #ce1126;
+  color: #f7ff00;
 }
 
-.credits {
-  margin-top: 10px;
+.credits a {
+  color: #800080;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
-@keyframes backgroundAnimation {
-  0% {
-    background-color: #f2f2f2;
-  }
-  50% {
-    background-color: #e0e0e0;
-  }
-  100% {
-    background-color: #f2f2f2;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  h1 {
-    font-size: 24px;
-  }
-
-  textarea {
-    height: 100px;
-  }
+.credits a:hover {
+  color: #f7ff00;
 }
