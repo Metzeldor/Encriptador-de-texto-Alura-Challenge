@@ -1,6 +1,6 @@
 # Encriptador y Desencriptador de Texto
 
-Este sitio web es un encriptador y desencriptador de texto que utiliza un conjunto específico de llaves de encriptación para transformar las letras de una palabra.
+Este sitio web es un encriptador y desencriptador de texto que utiliza un conjunto específico de llaves de encriptación para transformar las letras de una palabra..
 
 ## Cómo usarlo
 
